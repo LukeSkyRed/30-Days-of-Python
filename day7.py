@@ -1,5 +1,5 @@
 #Day 7: split, join, and Slices
-'''
+
 user_numbers = input("Please enter 5 numbers separated by commas: ") # 1,2,3,4,5
 numbers_list = user_numbers.split(",")
 
@@ -62,7 +62,7 @@ for quote in quotes:
 	print(quote.strip("'"))
 
 #----------------------------------------------------------------------------------------------------------
-'''
+
 #4)Ask the user to enter a word, and then print out the length of the word. You should account for any excess whitespace in the user’s input,
 #so you’re going to have to process the string before you find its length.
 
